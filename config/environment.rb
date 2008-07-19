@@ -25,6 +25,7 @@ Rails::Initializer.run do |config|
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "aws-s3", :lib => "aws/s3"
+  config.gem "json", :version => '1.1.3'
   config.gem "haml", :version => '2.0.1'
   config.gem 'mislav-will_paginate', :version => '2.3.2', :lib => 'will_paginate'
 
