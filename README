@@ -8,4 +8,4 @@ Included Plugins/Gems:
   - HAML
   - will_paginate
   - query_trace
-  
+  - exception_logger
