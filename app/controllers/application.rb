@@ -6,7 +6,8 @@ class ApplicationController < ActionController::Base
 
   # See ActionController::RequestForgeryProtection for details
   # Uncomment the :secret if you're not using the cookie session store
-  protect_from_forgery # :secret => '3936fd500a0af8509bcae3a14f0953f2'
+  protect_from_forgery :secret => '3936fd500a0af8509bcae3a14f0953f2'
+  ensure_application_is_installed_by_facebook_user
   
   # See ActionController::Base for details 
   # Uncomment this to filter the contents of submitted sensitive data parameters
