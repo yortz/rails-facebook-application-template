@@ -1,7 +1,7 @@
 This application is intended as a starting point to Facebook apps.
 
 To Use:
-  - Download a copy from http://github.com/capitalist/rails-facebook-application-template/
+  - git clone --origin rfbtemplate git://github.com/capitalist/rails-facebook-application-template.git project_name
 
 Included Plugins/Gems:
   - Facebooker
